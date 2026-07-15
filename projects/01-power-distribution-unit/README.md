@@ -135,15 +135,13 @@ terrestrial safety-critical context.
 | Communication interface | CAN |
 
 ## Media
-https://youtu.be/-ozFVhW41GM
 
-## Media
+<a href="https://youtube.com/watch?v=-ozFVhW41GM">
+  <img src="https://img.youtube.com/vi/-ozFVhW41GM/maxresdefault.jpg" width="700">
+</a>
 
-[![PDU current-limit trip test](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://youtube.com/watch?v=-ozFVhW41GM)
+*Click to watch: PDU power source switching with load test at 90A.*
 
-*Click to watch: PDU source switching with load test at 90A.*
-
-<!-- Photos of the built board, oscilloscope captures of the ORing/switching behavior, etc. -->
 <img src="assets/PDU-Top.JPG" width="700">
 
 Top view
