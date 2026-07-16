@@ -24,7 +24,7 @@ bus (250K), acting as a protocol/baud-rate translator alongside its primary I/O 
 
 ## Architecture
 
-![Architecture diagram](assets/architecture-diagram.png)
+![Architecture diagram](assets/DAQArchitechture.png)
 
 <!-- Diagram: sensors/actuators → DIO/AIO front end → MCU → CAN transceiver → shared bus →
      host controller. -->
@@ -206,11 +206,38 @@ addressing design described here, not part of this write-up's own scope.
 
 ## Why this matters for spacecraft avionics
 
-Distributed remote I/O over a shared bus — rather than home-running every sensor/actuator to
-a central computer — is the standard modern spacecraft avionics pattern, reducing harness mass
-and complexity by placing I/O close to the hardware it serves. This module, built once and
-deployed across 3-4 vehicle projects, follows the same "qualify once, reuse many" philosophy
-spacecraft component vendors build their product lines around.
+Distributed remote I/O over a shared bus — rather than home-running every sensor and
+actuator to a central computer — is a common pattern in modern spacecraft avionics,
+used to reduce wiring harness mass and complexity by placing I/O close to the hardware
+it serves. Small satellite platforms in particular often use CAN bus specifically for
+this role, given its multi-drop wiring, built-in arbitration, and fault tolerance.
+This module's core structure — a general-purpose I/O node with per-unit bus addressing,
+allowing multiple identical units to share one bus — follows that same pattern.
+
+Two design choices carry over directly:
+
+- **Per-node addressing for multi-unit deployment.** The DIP-switch addressing scheme
+  that lets several I/O modules coexist on one CAN bus is the same underlying concept
+  as remote terminal addressing on a shared spacecraft data bus — assigning each node
+  an identity so a central controller can address it individually over shared wiring.
+- **Protocol bridging between subsystems running different bus parameters.** The
+  Sonar-to-main-bus baud rate translation is a small-scale example of a gateway
+  function — translating between subsystems that don't natively speak the same bus
+  configuration — which shows up in spacecraft avionics whenever different subsystems
+  or heritage hardware need to interoperate on a shared data architecture.
+
+The input-protection discipline (clamping, transient suppression, debouncing before a
+signal ever reaches the microcontroller) also reflects the same "assume a harsh,
+unpredictable electrical environment" design posture that spacecraft I/O interfaces are
+built around, even though the specific threats differ — automotive transients and ESD
+here, versus radiation-induced upsets and connector/cabling faults in a space
+environment.
+
+This module wasn't designed for space, and no claim is made that it meets space-grade
+requirements (radiation tolerance, vacuum operation, or flight qualification). What it
+demonstrates is the same class of architectural reasoning — generalized, reusable,
+addressable I/O nodes on a shared bus, hardened against a harsh electrical environment —
+applied in a terrestrial, safety-critical context.
 
 ## Specs
 <!-- Channel counts, voltage ranges, CAN bitrate, message format if custom. -->
