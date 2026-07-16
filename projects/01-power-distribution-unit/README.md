@@ -142,10 +142,10 @@ terrestrial safety-critical context.
 
 *Click to watch: PDU power source switching with load test at 90A.*
 
-*Load test: PDU supplying electronic load testers and two PCs under full GPU load —
-one 12V output group and three 24V output groups, ~26A regulated output per group.
-Input current measured at 90A. Output power remained uninterrupted throughout a live
-switch between Primary and Secondary sources.*
+*Load test: PDU running at its designed rated capacity — supplying electronic load
+testers and two PCs under full GPU load, one 12V output group and three 24V output
+groups, each drawing ~26A. Input current measured at 90A. Output power remained
+uninterrupted throughout a live switch between Primary and Secondary sources.*
 
 <img src="assets/PDU-Top.JPG" width="700">
 
