@@ -122,9 +122,6 @@ though smallest-scale, connection in this portfolio to that class of problem.
 
 ## Media
 
-<!-- CAD design work — component placement and aluminum sheet-metal chassis design in
-Fusion 360. -->
-
 <img src="assets/PooDin-PC2.JPG" width="700">
 
 "PooDin" the robot. Most of the electronics eg. batteries (24V),STM32 Board and cable harness are tucked inside of the robot so it cannot be seen from outside. This is "PooDin" in ready-to-run state.

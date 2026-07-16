@@ -24,10 +24,6 @@ decision.
 
 ## Architecture
 
-<!-- Diagram goes here — recommend a clean block diagram: input sources → Priority Power
-     Path Controller → redundant voltage regulators → Power ORing → current-sensed
-     MOSFET-switched outputs → loads. -->
-
 ![Architecture diagram](assets/PDU-architecture-diagram.png)
 
 The PDU distributes power from two independent sources — Primary and Secondary — across

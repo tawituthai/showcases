@@ -3,7 +3,6 @@
 **Status:** Built and deployed — 3-4 units reused across multiple vehicle projects
 
 ## Overview
-<!-- What it does: DIO + AIO channel counts, CAN interface, what it's used for. -->
 
 Internally called "Venti DAQ," this is a CAN-Bus General-Purpose I/O Module built to
 control and monitor a wide variety of devices in and around the Prime Mover — designed
@@ -25,9 +24,6 @@ bus (250K), acting as a protocol/baud-rate translator alongside its primary I/O 
 ## Architecture
 
 ![Architecture diagram](assets/DAQArchitechture.png)
-
-<!-- Diagram: sensors/actuators → DIO/AIO front end → MCU → CAN transceiver → shared bus →
-     host controller. -->
 
 ### Digital Input
 
@@ -240,7 +236,6 @@ addressable I/O nodes on a shared bus, hardened against a harsh electrical envir
 applied in a terrestrial, safety-critical context.
 
 ## Specs
-<!-- Channel counts, voltage ranges, CAN bitrate, message format if custom. -->
 
 | Parameter | Value |
 |---|---|
@@ -257,7 +252,6 @@ applied in a terrestrial, safety-critical context.
 | Deployment | 3–4 units built and reused across multiple vehicle projects |
 
 ## Media
-<!-- Photos, wiring diagrams, one project's integration photo. -->
 ![DAQ-3DModel](assets/DAQ-3DModel.PNG)
 3D Model of General-Purpose I/O Module
 

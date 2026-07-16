@@ -151,7 +151,6 @@ guarantee the switch is safe and unambiguous. This is the same control-authority
 problem, solved for a production automotive safety-critical system.
 
 ## Specs
-<!-- Response time, fail-safe behavior, interfaces to the rest of the vehicle stack. -->
 
 | Parameter | Value |
 |---|---|
@@ -166,7 +165,6 @@ problem, solved for a production automotive safety-critical system.
 | Brake driver protection | 3A hold / 6A trip fuse; Schottky flyback diode per solenoid |
 
 ## Media
-<!-- Circuit photos, timing diagrams/scope captures of a transition event if available. -->
 ![DBW-Base](assets/DBW-Base.JPG)
 Drive-by-Wire board without MCU board
 
