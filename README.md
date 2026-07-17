@@ -10,6 +10,8 @@ deployed, not a paper design, unless noted otherwise.
 
 **Contact:** iamtawit@gmail.com · [LinkedIn](https://www.linkedin.com/in/tawit-u/)
 
+**Resume:** [Tawit 2026](Tawit_2026_B.pdf)
+
 ---
 
 ## Projects
