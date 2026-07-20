@@ -165,7 +165,7 @@ problem, solved for a production automotive safety-critical system.
 | Brake driver protection | 3A hold / 6A trip fuse; Schottky flyback diode per solenoid |
 
 ## Media
-![DBW-Base](assets/DBW-Base.JPG)
+![DBW-Base](assets/DBW-3D.png)
 Drive-by-Wire board without MCU board
 
 <!-- ![DBW-Base](assets/DBW-MCU.JPG)
