@@ -132,7 +132,7 @@ terrestrial safety-critical context.
 
 ## Media
 
-<a href="https://youtube.com/watch?v=-ozFVhW41GM">
+<!-- <a href="https://youtube.com/watch?v=-ozFVhW41GM">
   <img src="https://img.youtube.com/vi/-ozFVhW41GM/maxresdefault.jpg" width="700">
 </a>
 
@@ -149,4 +149,4 @@ Top view
 
 <img src="assets/PDU-ISO.JPG" width="700">
 
-ISO view
+ISO view -->

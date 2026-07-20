@@ -168,5 +168,5 @@ problem, solved for a production automotive safety-critical system.
 ![DBW-Base](assets/DBW-Base.JPG)
 Drive-by-Wire board without MCU board
 
-![DBW-Base](assets/DBW-MCU.JPG)
-Drive-by-Wire board with MCU board
+<!-- ![DBW-Base](assets/DBW-MCU.JPG)
+Drive-by-Wire board with MCU board -->

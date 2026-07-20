@@ -255,5 +255,5 @@ applied in a terrestrial, safety-critical context.
 ![DAQ-3DModel](assets/DAQ-3DModel.PNG)
 3D Model of General-Purpose I/O Module
 
-![DAQ-Casing](assets/DAQ-Casing.JPG)
-General-Purpose I/O Module with casing
+<!-- ![DAQ-Casing](assets/DAQ-Casing.JPG)
+General-Purpose I/O Module with casing -->

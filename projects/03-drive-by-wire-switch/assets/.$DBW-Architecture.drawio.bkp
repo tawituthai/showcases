@@ -1,0 +1,302 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5" pages="4">
+  <diagram name="current-feedback" id="Aa72JCosObOFQHLJqDjo">
+    <mxGraphModel dx="1722" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2mCT7-tFQM40pnmqNvfU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="2mCT7-tFQM40pnmqNvfU-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="240" as="targetPoint" />
+            <mxPoint x="280" y="240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2mCT7-tFQM40pnmqNvfU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2mCT7-tFQM40pnmqNvfU-2" target="2mCT7-tFQM40pnmqNvfU-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="240.09523809523807" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2mCT7-tFQM40pnmqNvfU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="2mCT7-tFQM40pnmqNvfU-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="260" />
+              <mxPoint x="520" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2mCT7-tFQM40pnmqNvfU-2" value="Solenoid coil driver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2mCT7-tFQM40pnmqNvfU-4" value="Analog input command" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2mCT7-tFQM40pnmqNvfU-6" value="High-side Power" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2mCT7-tFQM40pnmqNvfU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2mCT7-tFQM40pnmqNvfU-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="400" />
+              <mxPoint x="680" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2mCT7-tFQM40pnmqNvfU-7" value="Shunt resistor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2mCT7-tFQM40pnmqNvfU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="2mCT7-tFQM40pnmqNvfU-10" target="2mCT7-tFQM40pnmqNvfU-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2mCT7-tFQM40pnmqNvfU-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="595" y="280" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="2mCT7-tFQM40pnmqNvfU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="2mCT7-tFQM40pnmqNvfU-11" target="2mCT7-tFQM40pnmqNvfU-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2mCT7-tFQM40pnmqNvfU-11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="595" y="340" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="2mCT7-tFQM40pnmqNvfU-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2mCT7-tFQM40pnmqNvfU-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2mCT7-tFQM40pnmqNvfU-13" value="OpAmp" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="285" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2mCT7-tFQM40pnmqNvfU-17" value="Soleniod coil" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="390" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2mCT7-tFQM40pnmqNvfU-18" value="Low-side driver" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2mCT7-tFQM40pnmqNvfU-19" value="Coil current feedback" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0U_0OfobRCs3w7FbNEQ2" name="externalDAC">
+    <mxGraphModel dx="1722" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GJpeYknCV0mAw-w4xrzs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="GJpeYknCV0mAw-w4xrzs-1" target="GJpeYknCV0mAw-w4xrzs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJpeYknCV0mAw-w4xrzs-1" value="External DAC&lt;br&gt;12-bit&lt;br&gt;SPI interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GJpeYknCV0mAw-w4xrzs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GJpeYknCV0mAw-w4xrzs-2" target="GJpeYknCV0mAw-w4xrzs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJpeYknCV0mAw-w4xrzs-2" value="MCU SPI interface" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GJpeYknCV0mAw-w4xrzs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="GJpeYknCV0mAw-w4xrzs-4" target="GJpeYknCV0mAw-w4xrzs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJpeYknCV0mAw-w4xrzs-4" value="VRef&lt;div&gt;&lt;b&gt;output voltage range&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GJpeYknCV0mAw-w4xrzs-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GJpeYknCV0mAw-w4xrzs-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="255.16666666666674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GJpeYknCV0mAw-w4xrzs-7" value="Opamp" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="225" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GJpeYknCV0mAw-w4xrzs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="GJpeYknCV0mAw-w4xrzs-9" target="GJpeYknCV0mAw-w4xrzs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJpeYknCV0mAw-w4xrzs-9" value="VRef&lt;div&gt;&lt;b&gt;bias voltage&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="360" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GJpeYknCV0mAw-w4xrzs-11" value="Voltage Summation&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="190" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GJpeYknCV0mAw-w4xrzs-13" value="Analog voltage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="255" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of externalDAC" id="nnJs0bbJhjAy7PTXx1bY">
+    <mxGraphModel dx="1425" dy="852" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="en6a6tpoO3651fS0gwUV-0" />
+        <mxCell id="en6a6tpoO3651fS0gwUV-1" parent="en6a6tpoO3651fS0gwUV-0" />
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="70" y="180" width="525" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="en6a6tpoO3651fS0gwUV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="en6a6tpoO3651fS0gwUV-1" source="en6a6tpoO3651fS0gwUV-3" target="en6a6tpoO3651fS0gwUV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="en6a6tpoO3651fS0gwUV-3" value="External DAC&lt;br&gt;12-bit&lt;br&gt;SPI interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="280" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="en6a6tpoO3651fS0gwUV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="en6a6tpoO3651fS0gwUV-1" source="en6a6tpoO3651fS0gwUV-5" target="en6a6tpoO3651fS0gwUV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="en6a6tpoO3651fS0gwUV-5" value="MCU SPI interface" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="80" y="225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="en6a6tpoO3651fS0gwUV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="en6a6tpoO3651fS0gwUV-1" source="en6a6tpoO3651fS0gwUV-7" target="en6a6tpoO3651fS0gwUV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="en6a6tpoO3651fS0gwUV-7" value="VRef&lt;div&gt;&lt;b&gt;output voltage range&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="80" y="300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="en6a6tpoO3651fS0gwUV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="en6a6tpoO3651fS0gwUV-1" source="en6a6tpoO3651fS0gwUV-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="255.16666666666674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="en6a6tpoO3651fS0gwUV-9" value="Opamp" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="520" y="225" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="en6a6tpoO3651fS0gwUV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="en6a6tpoO3651fS0gwUV-1" source="en6a6tpoO3651fS0gwUV-11" target="en6a6tpoO3651fS0gwUV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="en6a6tpoO3651fS0gwUV-11" value="VRef&lt;div&gt;&lt;b&gt;bias voltage&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="310" y="360" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="en6a6tpoO3651fS0gwUV-12" value="Voltage Summation&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="510" y="190" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="en6a6tpoO3651fS0gwUV-1" source="WFoG6_VdqzPoQmeO5WdF-3" target="WFoG6_VdqzPoQmeO5WdF-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="255.09523809523807" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="en6a6tpoO3651fS0gwUV-1" source="WFoG6_VdqzPoQmeO5WdF-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="455" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="275" />
+              <mxPoint x="920" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-3" value="Solenoid coil driver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="680" y="215" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-5" value="High-side Power" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="850" y="215" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="en6a6tpoO3651fS0gwUV-1" source="WFoG6_VdqzPoQmeO5WdF-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="415" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="415" />
+              <mxPoint x="1080" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-7" value="Shunt resistor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="960" y="315" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="en6a6tpoO3651fS0gwUV-1" source="WFoG6_VdqzPoQmeO5WdF-9" target="WFoG6_VdqzPoQmeO5WdF-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="995" y="295" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="en6a6tpoO3651fS0gwUV-1" source="WFoG6_VdqzPoQmeO5WdF-11" target="WFoG6_VdqzPoQmeO5WdF-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="995" y="355" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="en6a6tpoO3651fS0gwUV-1" source="WFoG6_VdqzPoQmeO5WdF-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-13" value="OpAmp" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="1100" y="300" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-14" value="Soleniod coil" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="1080" y="405" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-15" value="Low-side driver" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="850" y="255" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-16" value="Coil current feedback" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="1200" y="315" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-17" value="analog voltage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="595" y="255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="650" y="180" width="630" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-20" value="External DAC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="300" y="155" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WFoG6_VdqzPoQmeO5WdF-21" value="Soleniod drive" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="en6a6tpoO3651fS0gwUV-1">
+          <mxGeometry x="940" y="155" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="87pzqZv_CEFVr_2K5X7u" name="Throttle">
+    <mxGraphModel dx="1722" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bz6YbkPDI6zdwjFvefY1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.88;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="bz6YbkPDI6zdwjFvefY1-1" target="bz6YbkPDI6zdwjFvefY1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bz6YbkPDI6zdwjFvefY1-1" value="OpAmp" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bz6YbkPDI6zdwjFvefY1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bz6YbkPDI6zdwjFvefY1-3" target="bz6YbkPDI6zdwjFvefY1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bz6YbkPDI6zdwjFvefY1-3" value="Throttle command&lt;br&gt;from AV system" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="295" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bz6YbkPDI6zdwjFvefY1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bz6YbkPDI6zdwjFvefY1-5" target="bz6YbkPDI6zdwjFvefY1-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="320.0952380952381" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bz6YbkPDI6zdwjFvefY1-5" value="" style="html=1;shape=mxgraph.electrical.electro-mechanical.twoWaySwitch;aspect=fixed;elSwitchState=2;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="400" y="307" width="75" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bz6YbkPDI6zdwjFvefY1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="bz6YbkPDI6zdwjFvefY1-7" target="bz6YbkPDI6zdwjFvefY1-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="377" />
+              <mxPoint x="360" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bz6YbkPDI6zdwjFvefY1-7" value="Throttle command&lt;br&gt;from paddle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="bz6YbkPDI6zdwjFvefY1-11" value="Vehicle&#39;s ECU" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="302.5" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="bz6YbkPDI6zdwjFvefY1-12" value="Amplify from 3.3V to 5V" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="250" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bz6YbkPDI6zdwjFvefY1-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;dashed=1;width=4.64;endSize=6.2128;endWidth=9.0176;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="437" y="400" as="sourcePoint" />
+            <mxPoint x="437.33" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bz6YbkPDI6zdwjFvefY1-15" value="Mode selection" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="396.25" y="399" width="82.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bz6YbkPDI6zdwjFvefY1-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
