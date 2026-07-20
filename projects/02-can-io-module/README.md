@@ -72,12 +72,12 @@ cover the expected load range:
 - **High-current channels (BSL606SN, 4.5A)** — for larger loads like warning lights,
   horns, and light strips. AEC-Q101 automotive-grade, 60V Vds, 1.8V gate threshold.
 
-  ![DAQ-DO-HighCurrent](assets/DAQ-DO-HighCurrent.png)
+  <!-- ![DAQ-DO-HighCurrent](assets/DAQ-DO-HighCurrent.png) -->
 
 - **Low-current channels (IRLML0060, 2A)** — for smaller loads like relay coils and
   LEDs. 60V Vds, 2.5V max gate threshold.
 
-  ![DAQ-DO-HighCurrent](assets/DAQ-DO-LowCurrent.png)
+  <!-- ![DAQ-DO-HighCurrent](assets/DAQ-DO-LowCurrent.png) -->
 
 Both parts were chosen specifically because their gate threshold voltage is below 3.3V,
 allowing the MOSFETs to be driven directly from an STM32 GPIO pin with no separate gate
